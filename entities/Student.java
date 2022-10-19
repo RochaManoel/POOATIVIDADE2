@@ -19,4 +19,10 @@ public class Student extends User {
         Level = level;
     }
 
+    @Override
+    public String toString(){
+        String Inf = super.toString()+"Tipo de Usuário: "+this.Level+"\n";
+        return Inf;
+    }
+
 }

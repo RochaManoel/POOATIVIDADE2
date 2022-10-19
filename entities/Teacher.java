@@ -19,4 +19,9 @@ public class Teacher extends User {
         Object = object;
     }
 
+    @Override
+    public String toString(){
+        String Inf = super.toString()+"Tipo de Usuário: "+this.Object+"\n";
+        return Inf;
+    }
 }

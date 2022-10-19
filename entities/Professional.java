@@ -19,4 +19,9 @@ public class Professional extends User{
         Office = office;
     }
 
+    @Override
+    public String toString(){
+        String Inf = super.toString()+"Tipo de Usuário: "+this.Office+"\n";
+        return Inf;
+    }
 }
