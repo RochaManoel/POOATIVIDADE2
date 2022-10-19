@@ -11,7 +11,7 @@ Foram aplicados os seguintes conceitos:
   9 - Generics (Presente com o Uso de ArrayList);
   10 - Collections (Presente com o Uso de ArrayList);
   
-#Funções Implementadas
+# Funções Implementadas
 Foram aplicadas as seguintes funções:
   1 - Criação e remoção de Informações (Presentes nas áreas de projetos, atividades, perfil e login);
   2 - Edição de Informações (Presentes nas áreas de projetos, atividades, perfil e login);
