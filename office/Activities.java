@@ -73,17 +73,6 @@ public class Activities {
     public void addTaskUserProfessional(User user, String task){
         this.tasks.add(new Tasks(user, task));
     }
-    
-    //passivel de excluir isso aqui
-    /*public void addInfo(String idActivity, String descriptionActivity, String firstPeriod, String lastPeriod, User coordinatorActivity, ArrayList<User> professionalsActivity, ArrayList<Tasks> tasks){
-        this.idActivity = idActivity;
-        this.descriptionActivity = descriptionActivity;
-        this.firstPeriod = firstPeriod;
-        this.lastPeriod = lastPeriod;
-        this.coordinatorActivity = coordinatorActivity;
-        this.professionalsActivity = professionalsActivity;
-        this.tasks = tasks;
-    }*/
 
     // ----- Edição de elementos na Classe ----- //
     public void editTask(User user, String task){
